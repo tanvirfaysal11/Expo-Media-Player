@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Mobile App",
+    "slug": "mobile-app",
+    "privacy": "public",
+    "jsEngine": "hermes",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/xeon-logo.png",
+    "splash": {
+      "resizeMode": "cover",
+      "backgroundColor": "#CB0C9F"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "enabled": false
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "2"
+
+    },
+    "description": "Mobile app for Business",
+    "android": {
+
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/xeon-logo.png",
+        "backgroundColor": "#CB0C9F"
+      },
+      "permissions": [
+        "INTERNET",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE"
+      ]
+    }
+  }
+}
